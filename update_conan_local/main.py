@@ -29,7 +29,8 @@ def find_cache(sourcePath = None):
     if (sourcePath != None and os.path.isdir(sourcePath)):
         current_path = sourcePath
 
-    
+    conanfile_path = current_path
+
     parent_path = os.path.join(current_path, '..')
     conanfile_py = 'conanfile.py'
     if os.path.isfile(os.path.join(current_path, conanfile_py)):

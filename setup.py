@@ -2,8 +2,8 @@ import setuptools
 
 setuptools.setup(
   name = 'update-conan-local',    
-  packages = ['update-conan-local'], 
-  version = '0.0.1-4',
+  packages = setuptools.find_packages(), 
+  version = '0.0.1-6',
   license='MIT',        
   description = 'Update Conan Local Cache',  
   author = 'Wei Wan', 
