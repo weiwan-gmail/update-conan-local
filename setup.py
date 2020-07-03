@@ -1,18 +1,16 @@
-from distutils.core import setup
+import setuptools
 
-setup(
+setuptools.setup(
   name = 'update-conan-local',    
   packages = ['update-conan-local'], 
-  version = '0.0.1-1',
+  version = '0.0.1-4',
   license='MIT',        
   description = 'Update Conan Local Cache',  
   author = 'Wei Wan', 
   author_email = 'emwanwei@gmail.com',
   url = 'https://github.com/weiwan-gmail/update-conan-local',
-  download_url = 'https://github.com/user/weiwan-gmail/archive/v_01.tar.gz',    # I explain this later on
+  download_url = 'https://github.com/user/weiwan-gmail/archive/v_01.tar.gz',
   keywords = ['pypi', 'conan', 'cache'],
-  install_requires=[           
-      ],
   classifiers=[
     'Development Status :: 1 - Planning',
     'Intended Audience :: Developers',
